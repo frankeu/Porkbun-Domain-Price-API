@@ -22,7 +22,6 @@ foreach($data[1] as $k => $v){
 	}else{
 		$new = array(
 			'status' => FALSE, 
-			'name' => 'ori', 
 			'price' => $data[7][$k]
 		);
 	}
@@ -38,7 +37,6 @@ foreach($data[1] as $k => $v){
 	}else{
 		$renew = array(
 			'status' => FALSE, 
-			'name' => 'ori', 
 			'price' => $data[12][$k]
 		);
 	}
@@ -54,7 +52,6 @@ foreach($data[1] as $k => $v){
 	}else{
 		$transfer = array(
 			'status' => FALSE, 
-			'name' => 'ori', 
 			'price' => $data[17][$k]
 		);
 	}
